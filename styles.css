@@ -1,0 +1,132 @@
+@import url(reset.css);
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: rgb(40, 4, 4);
+}
+
+.y_center {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header li {
+    padding: 12px;
+    gap: 4px;
+    color: white;
+    font-weight: 500;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+    header li:hover {
+        background-color:#ff0066;
+        transition: 0.6s;
+        opacity: 0;
+        opacity: 1;
+    }
+
+.welcome {
+    background-color: orangered;
+    gap: 16px;
+    padding: 64px;
+}
+
+.welcome h2, .welcome p {
+    text-align: center;
+}
+
+.welcome h2 {
+    font-size: 32px;
+}
+
+.welcome p {
+    margin: 16px 64px;
+}
+
+.comu {
+    display: flex;
+    padding: 32px 128px;
+    gap: 16px;
+}
+
+.comu h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 16px;
+    text-transform: uppercase;
+}
+
+ .nismo img {
+    height: 100px;
+    width: auto;
+}
+
+.fa {
+    display: flex;
+    justify-content: center;
+}
+
+.nismo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.manifesto {
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+    background-color: #ff0066;
+    margin: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.quarteto {
+    display: flex;
+    padding: 32px;
+    margin: 8px 32px;
+    gap: 8px;
+}
+
+.quatro {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    justify-content: center;
+}
+
+.quatro p {
+    margin-bottom: 8px 64px 24px 16px;
+    font-size: 0.9em;
+    padding: 16px;
+    text-align: center;
+}
+
+.quatro h3 {
+    text-align: center;
+}
+
+footer h3 {
+    padding: 64px;
+
+}
+
+
+
